@@ -227,7 +227,7 @@ class interface:
         Label(self.frame_professor, text='Adicionar Professor', font=15, bg='azure2', fg='grey20').place(x=410, y=61)
         Label(self.frame_professor, text='Nome:', bg='azure2', fg='grey20').place(x=200, y=90)
         Label(self.frame_professor, text='CPF:', bg='azure2', fg='grey20').place(x=200, y=120)
-        Label(self.frame_professor,text="Departamento:", bg='azure2', fg='grey20').place(x=200, y=150)
+        Label(self.frame_professor, text="Departamento:", bg='azure2', fg='grey20').place(x=200, y=150)
         Label(self.frame_professor, text='O CPF deve conter 11 números;\nNenhuma letra nem caracteres invalidos.',bg='gray80', fg='grey20').place(x=520, y=120)
         self.nome_prof = Entry(self.frame_professor, width=40)
         self.nome_prof.place(x=285, y=90)
